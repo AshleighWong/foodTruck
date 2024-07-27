@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(144, 223, 234);
+  position: absoloute;
+}
+
+.containers {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+.title {
+  text-align: center;
+  margin-top: 6rem;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-size: 45px;
+}
+
+.picture {
+  width: 22rem;
+  height: 20rem;
+}
+
+.container {
+  box-sizing: 50px;
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 22rem;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.menu-button {
+  margin: 0 auto;
+  display: block;
+}
+
+.names {
+  text-align: center;
+}
